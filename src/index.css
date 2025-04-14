@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 1920px;
+  --color-primary: #000080;
+  --color-secondary: #C01E25;
+}
+
+/* body {
+  font-family: 'English-Font', sans-serif;
+} */
+
+/* =============================================================
+  Global font classes are used to change the font of the text.
+================================================================*/
+@font-face {
+  font-family: "English-Font";
+  src: url("./assets/fonts/SARABUN-REGULAR.TTF") format("truetype");
+  /* src: url("/fonts/helveticanowtext-bold-demo.ttf") format("truetype"); */
+}
+
+@font-face {
+  font-family: "Khmer-Font";
+  src: url("./assets/fonts/KHMEROSSIEMREAP.TTF") format("truetype");
+  /* src: url("/fonts/helveticanowtext-bold-demo.ttf") format("truetype"); */
+}
+
+/* Create utility classes manually */
+.font-en {
+  font-family: "English-Font", sans-serif;
+}
+
+.font-kh {
+  font-family: "Khmer-Font", sans-serif;
+}
