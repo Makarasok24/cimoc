@@ -12,8 +12,8 @@ const LanguageSwitcher = () => {
     };
 
     const languages = [
-        { code: "kh", name: "ភាសាខ្មែរ", flag: asserts.KH },
-        { code: "en", name: "English(US)", flag: asserts.EN},
+        { code: "kh", name: "ភាសាខ្មែរ", flags: asserts.KH },
+        { code: "en", name: "English(US)", flags: asserts.EN },
     ];
 
     const currentLang = languages.find((lang) => lang.code === i18n.language);
@@ -24,7 +24,7 @@ const LanguageSwitcher = () => {
                 onClick={() => setOpen(!open)}
                 className="flex items-center gap-2 text-lg outline-1 outline-gray-100 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer"
             >
-                <img src={currentLang.flag} alt={currentLang.name} className="w-8  object-cover rounded-sm" />
+                <img src={currentLang.flags} alt={currentLang.name} className="w-8  object-cover rounded-sm" />
                 <span>{currentLang.name}</span>
             </button>
 
@@ -36,7 +36,7 @@ const LanguageSwitcher = () => {
                             onClick={() => changeLanguage(lang.code)}
                             className="flex items-center w-full gap-2 px-3 py-2 hover:bg-gray-100 rounded-md text-sm cursor-pointer"
                         >
-                            <img src={lang.flag} alt={lang.name} className="w-8 object-cover rounded-sm" />
+                            <img src={lang.flags} alt={lang.name} className="w-8 object-cover rounded-sm" />
                             <span className={`font-${lang.code}`}>
                                 {lang.name}
                             </span>
