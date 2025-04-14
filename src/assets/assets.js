@@ -6,6 +6,8 @@ import SMART_EDU from "./images/smart_edu.jpg";
 import CIMOC_Footer from "./images/logo-footer-.png";
 import SMART_EDU_NOBG from "./images/smart_edu-.png";
 import RegisterPoster from "./images/examPoster.jpg";
+import KH from "./images/kh.png";
+import EN from "./images/en.png";
 export const asserts = {
     CimocLogo,
     CIMO,
@@ -14,5 +16,7 @@ export const asserts = {
     SMART_EDU,
     CIMOC_Footer,
     SMART_EDU_NOBG,
-    RegisterPoster
+    RegisterPoster,
+    KH,
+    EN
 }
