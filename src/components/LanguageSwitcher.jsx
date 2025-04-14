@@ -16,7 +16,10 @@ const LanguageSwitcher = () => {
         { code: "en", name: "English(US)", flags: asserts.EN },
     ];
 
-    const currentLang = languages.find((lang) => lang.code === i18n.language);
+
+    const currentLang = languages.find((lang) =>
+        i18n.language.startsWith(lang.code)
+    ) || languages[0];
 
     return (
         <div className="relative">
