@@ -1,18 +1,22 @@
 {
     "welcome": "Welcome to System M",
     "language": "Language",
-
     "home": "Home",
     "aboutus": "About",
     "programs": "Programs",
     "contact": "Contact",
     "result": "Result",
     "blogs": "Blogs",
-    "support":"Supported By",
+    "support": "Supported By",
     "login": "Login",
-
     "aboutTitle": "About Us",
     "aboutDescription": "We are committed to...",
-
-    "examDay": "Exam Day"
+    "examDay": "Days left until the exam day!",
+    "Participants": "📣To all CIMOC Participants",
+    "announcing": "We're announcing an important change in the CIMOC 2025 timeline! Both the Preliminary Round and Final Round have been rescheduled to ensure better preparation time. 🌟",
+    "UpdatedDates": "📌Updated Dates",
+    "Preliminary": "🗓️Preliminary National Round: May 11, 2025",
+    "Registration": "⏳Registration for the Preliminary National Round: March 10, 2025 - May 04, 2025",
+    "FinalRound": "🗓️Final Round: September 06-07, 2025",
+    "registerNow": "Register Now"
 }

@@ -40,12 +40,12 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="flex flex-col text-white  py-[5rem] px-[11rem] w-full bg-black mt-2">
+    <footer className="flex flex-col text-white  py-[5rem] px-[11rem] w-full bg-third mt-2">
       <div className="flex justify-between">
         <div className="flex flex-col gap-5 py-[20px]">
           <img
             className="w-50"
-            src={asserts.CIMOC_footer}
+            src={asserts.CIMOC_Footer}
             alt="cimoc-logo"
           />
           <div className="font-en">
@@ -135,13 +135,13 @@ const Footer = () => {
             <p className="font-semibold mt-5">
               {t("support")}
             </p>
-            <img src={asserts.SMART_EDU} className="w-25 mt-2" alt="smart_edu" />
+            <img src={asserts.SMART_EDU_NOBG} className="w-25 mt-2" alt="smart_edu" />
           </div>
         </div>
       </div>
       <div className="w-full h-[1px] mt-5 bg-white"></div>
       <p className="text-center mt-10 font-en">
-        © {new Date().getFullYear()} Copyright, CIMOC. All Rights Reserved.
+        © {new Date().getFullYear()} CIMOC CAMBODIA. All Rights Reserved.
       </p>
     </footer>
   );

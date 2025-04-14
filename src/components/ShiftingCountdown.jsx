@@ -12,8 +12,8 @@ const DAY = HOUR * 24;
 
 const ShiftingCountdown = () => {
     return (
-        <div className="bg-gradient-to-br from-secondary to-primary p-4">
-            <div className="mx-auto flex w-full max-w-5xl items-center bg-white">
+        <div className="bg-gradient-to-br from-secondary to-third mt-5">
+            <div className="mx-auto flex w-full max-w-5xl items-center border border-gray-100 bg-white">
                 <CountdownItem unit="Day" text="days" />
                 <CountdownItem unit="Hour" text="hours" />
                 <CountdownItem unit="Minute" text="minutes" />
