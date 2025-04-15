@@ -10,6 +10,9 @@
   --color-primary: #000080;
   --color-secondary: #C01E25;
   --color-third: #63159B;
+  --color-pContent: #8080ff;
+  --color-sContent: #fbe2e3;
+  --color-tContent: #dcb9f6;
 }
 
 body {

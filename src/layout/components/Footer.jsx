@@ -46,7 +46,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-third text-white mt-2">
+    <footer className="bg-third text-white xl:mt-[5rem]">
       <div className="max-w-screen-2xl mx-auto px-4 xl:px-[11rem] py-10 flex flex-col gap-10">
         <div className="flex flex-col lg:flex-row justify-between gap-10">
           {/* Left Section */}

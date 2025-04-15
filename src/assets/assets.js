@@ -11,6 +11,8 @@ import EN from "./images/en.png";
 import Math from "./images/maths.png";
 import Brain from "./images/brain.png";
 import Support from "./images/support.png";
+import Student from "./images/student.jpg";
+import Award from "./images/award.jpg";
 export const asserts = {
     CimocLogo,
     CIMO,
@@ -24,5 +26,7 @@ export const asserts = {
     EN,
     Math,
     Brain,
-    Support
+    Support,
+    Student,
+    Award
 }

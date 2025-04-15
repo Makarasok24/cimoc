@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { asserts } from "../../assets/assets";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../../components/LanguageSwitcher";
+import { scrollToTop, scrollToTopSmooth } from "../../utils/scrollToTop";
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const { i18n, t } = useTranslation();
@@ -20,28 +21,28 @@ const Header = () => {
       <div className="flex justify-between px-[2px] md:py-[21px] lg:px-[40px] xl:px-[10rem] max-w-screen-2xl mx-auto h-full items-center">
         <div className="flex">
           <ul className="flex gap-2 lg:gap-6 text-[12px] md:text-[14px] lg:text-[16px] font-semibold">
-            <Link to={"/"} className="hover:underline">
+            <Link to={"/"} onClick={scrollToTop} className="hover:underline">
               <li>{t("home")}</li>
             </Link>
-            <Link to={"/programs"} className="hover:underline">
+            <Link to={"/programs"} onClick={scrollToTop} className="hover:underline">
               <li>{t("programs")}</li>
             </Link>
-            <Link to={"/blogs"} className="hover:underline">
+            <Link to={"/blogs"} onClick={scrollToTop} className="hover:underline">
               <li>{t("blogs")}</li>
             </Link>
-            <Link to={"/results"} className="hover:underline">
+            <Link to={"/results"} onClick={scrollToTop} className="hover:underline">
               <li>{t("result")}</li>
             </Link>
-            <Link to={"/contact"} className="hover:underline">
+            <Link to={"/contact"} onClick={scrollToTop} className="hover:underline">
               <li>{t("contact")}</li>
             </Link>
-            <Link to={"/aboutus"} className="hover:underline">
+            <Link to={"/aboutus"} onClick={scrollToTop} className="hover:underline">
               <li>{t("aboutus")}</li>
             </Link>
           </ul>
         </div>
         <div className="absolute left-1/2 transform -translate-x-1/2">
-          <Link to={"/"} className="">
+          <Link to={"/"} onClick={scrollToTop} className="">
             <img src={asserts.CIMO_LOGO} className="h-15" alt="snoopedu logo" />
           </Link>
         </div>
