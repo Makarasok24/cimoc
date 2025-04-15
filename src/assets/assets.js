@@ -8,6 +8,9 @@ import SMART_EDU_NOBG from "./images/smart_edu-.png";
 import RegisterPoster from "./images/examPoster.jpg";
 import KH from "./images/kh.png";
 import EN from "./images/en.png";
+import Math from "./images/maths.png";
+import Brain from "./images/brain.png";
+import Support from "./images/support.png";
 export const asserts = {
     CimocLogo,
     CIMO,
@@ -18,5 +21,8 @@ export const asserts = {
     SMART_EDU_NOBG,
     RegisterPoster,
     KH,
-    EN
+    EN,
+    Math,
+    Brain,
+    Support
 }
