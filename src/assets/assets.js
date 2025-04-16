@@ -17,15 +17,15 @@ import Examthumbnail from "./images/Exam.jpg";
 import SampleDoc from "./images/sampleDocs.jpg";
 import MOCK_Test from "./images/MockTest.jpg";
 import Past_Paper from "./images/pastPaper.jpg";
-import SampleQ_1_2 from "./images/SampleQ_1.png";
-import SampleQ_3_4 from "./images/SampleQ_2.png";
-import SampleQ_5_6 from "./images/SampleQ_3.png";
-import SampleQ_7 from "./images/SampleQ_7.png";
-import SampleQ_8 from "./images/SampleQ_8.png";
-import SampleQ_9 from "./images/SampleQ_9.png";
-import SampleQ_10 from "./images/SampleQ_10.png";
-import SampleQ_11 from "./images/SampleQ_11.png";
-import SampleQ_12 from "./images/SampleQ_12.png";
+import SampleQ_1_2 from "./images/sampleQ_1.png";
+import SampleQ_3_4 from "./images/sampleQ_2.png";
+import SampleQ_5_6 from "./images/sampleQ_3.png";
+import SampleQ_7 from "./images/sampleQ_7.png";
+import SampleQ_8 from "./images/sampleQ_8.png";
+import SampleQ_9 from "./images/sampleQ_9.png";
+import SampleQ_10 from "./images/sampleQ_10.png";
+import SampleQ_11 from "./images/sampleQ_11.png";
+import SampleQ_12 from "./images/sampleQ_12.png";
 export const asserts = {
     CimocLogo,
     CIMO,
